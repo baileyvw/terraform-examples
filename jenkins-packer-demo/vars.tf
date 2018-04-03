@@ -19,9 +19,14 @@ variable "INSTANCE_DEVICE_NAME" {
   default = "/dev/xvdh"
 }
 variable "JENKINS_VERSION" {
-  default = "2.32.1"
+  default = "2.114.1"
 }
-
+variable "TERRAFORM_VERSION" {
+  default = "0.11.5"
+}
+variable "PACKER_VERSION" {
+  default = "0.10.2"
+}
 variable "APP_INSTANCE_COUNT" {
   default = "0"
 }
